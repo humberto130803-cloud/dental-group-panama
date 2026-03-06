@@ -4,39 +4,39 @@ import { motion, AnimatePresence } from 'framer-motion'
 const cases = [
   {
     id: 1,
-    treatment: 'Blanqueamiento Dental',
-    doctor: 'Dr. Agustin Pinzon',
-    desc: 'Eliminacion de manchas y pigmentos para una sonrisa mas blanca y brillante.',
-    before: '/placeholder-before-1.jpg',
-    after: '/placeholder-after-1.jpg',
+    treatment: 'Brackets Autoligados',
+    doctor: 'Dr. Samuel Cedeno',
+    desc: 'Correccion de mordida y alineacion dental con brackets autoligados de ultima generacion.',
+    before: '/before-brackets.png',
+    after: '/after-brackets.png',
   },
   {
     id: 2,
-    treatment: 'Ortodoncia',
-    doctor: 'Dr. Samuel Cedeno',
-    desc: 'Brackets autoligados para cerrar espacios y alinear los dientes.',
-    before: '/placeholder-before-2.jpg',
-    after: '/placeholder-after-2.jpg',
+    treatment: 'Ortopedia Maxilar',
+    doctor: ':Dental Group',
+    desc: 'Tratamiento temprano para corregir problemas de mordida y desarrollo de los maxilares en ninos.',
+    before: '/before-ortopedia.png',
+    after: '/after-ortopedia.png',
   },
   {
     id: 3,
-    treatment: 'Carillas de Porcelana',
-    doctor: 'Dr. Pedro Quiros',
-    desc: 'Carillas personalizadas con matices naturales para un color mas agradable.',
-    before: '/placeholder-before-3.jpg',
-    after: '/placeholder-after-3.jpg',
+    treatment: 'Limpieza Air Flow',
+    doctor: ':Dental Group',
+    desc: 'Eliminacion de manchas extrinsecas provocadas por cafe, te, vino y alimentos con colorantes.',
+    before: '/before-airflow.png',
+    after: '/after-airflow.png',
   },
   {
     id: 4,
-    treatment: 'Limpieza Air Flow',
-    doctor: ':Dental Group',
-    desc: 'Eliminacion de manchas extrinsecas provocadas por alimentos y bebidas oscuras.',
-    before: '/placeholder-before-4.jpg',
-    after: '/placeholder-after-4.jpg',
+    treatment: 'Blanqueamiento Dental',
+    doctor: 'Dr. Agustin Pinzon',
+    desc: 'Aclaramiento profesional en consultorio para una sonrisa mas blanca y brillante.',
+    before: '/before-blanqueamiento.png',
+    after: '/after-blanqueamiento.png',
   },
 ]
 
-const filters = ['Todos', 'Blanqueamiento Dental', 'Ortodoncia', 'Carillas de Porcelana', 'Limpieza Air Flow']
+const filters = ['Todos', 'Brackets Autoligados', 'Ortopedia Maxilar', 'Limpieza Air Flow', 'Blanqueamiento Dental']
 
 export default function BeforeAfter() {
   const [active, setActive] = useState('Todos')
@@ -108,13 +108,6 @@ export default function BeforeAfter() {
                         src={c.before}
                         alt={`Antes - ${c.treatment}`}
                         className="w-full h-full object-cover"
-                        onError={(e) => {
-                          e.target.style.display = 'none'
-                          e.target.parentElement.innerHTML = `
-                            <div class="flex items-center justify-center h-full text-white/30 text-sm p-4 text-center">
-                              Foto Antes<br/>(Placeholder)
-                            </div>`
-                        }}
                       />
                     </div>
                     <div className="absolute top-3 left-3 bg-dark/80 text-white text-xs px-3 py-1 rounded-full">
@@ -128,13 +121,6 @@ export default function BeforeAfter() {
                         src={c.after}
                         alt={`Despues - ${c.treatment}`}
                         className="w-full h-full object-cover"
-                        onError={(e) => {
-                          e.target.style.display = 'none'
-                          e.target.parentElement.innerHTML = `
-                            <div class="flex items-center justify-center h-full text-white/30 text-sm p-4 text-center">
-                              Foto Despues<br/>(Placeholder)
-                            </div>`
-                        }}
                       />
                     </div>
                     <div className="absolute top-3 right-3 bg-red-brand text-white text-xs px-3 py-1 rounded-full">
