@@ -5,7 +5,7 @@ import { FiMapPin, FiClock, FiPhone, FiNavigation } from 'react-icons/fi'
 const locations = [
   {
     name: 'San Fernando',
-    address: 'Plaza Comercial San Fernando, Piso 1, Local 35, Via Espana',
+    address: 'Plaza Comercial San Fernando, Piso 1, Local 35, Vía España',
     phone: '261-3949',
     hours: 'Lun-Vie: 8am-6pm | Sab: 8am-1pm',
     mapEmbed:
@@ -52,7 +52,7 @@ export default function Locations() {
             Cerca de <span className="text-red-brand">ti</span>
           </h2>
           <p className="text-gray-warm text-lg">
-            Tres ubicaciones estrategicas en Panama para tu comodidad.
+            Tres ubicaciones estratégicas en Panamá para tu comodidad.
           </p>
         </motion.div>
 

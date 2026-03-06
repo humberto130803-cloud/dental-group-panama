@@ -3,51 +3,51 @@ import { FiInstagram } from 'react-icons/fi'
 
 const doctors = [
   {
-    name: 'Dr. Samuel Cedeno G.',
+    name: 'Dr. Samuel Cedeño G.',
     specialty: 'Ortodoncia e Invisalign',
-    education: 'Especialidad en Ortodoncia - Universidad Latinoamericana (Mexico)',
+    education: 'Especialidad en Ortodoncia - Universidad Latinoamericana (México)',
     image: '/team-samuel.jpg',
   },
   {
-    name: 'Dr. Agustin Pinzon',
-    specialty: 'Odontologia Estetica',
-    education: 'Especialista en rehabilitacion y estetica dental',
+    name: 'Dr. Agustín Pinzón',
+    specialty: 'Odontología Estética',
+    education: 'Especialista en rehabilitación y estética dental',
     image: '/team-agustin.jpg',
   },
   {
-    name: 'Dr. Pedro Quiros',
-    specialty: 'Cosmetica Dental',
-    education: 'Universidad de Zacatecas (Mexico) - Rehabilitacion oral e implantes',
+    name: 'Dr. Pedro Quirós',
+    specialty: 'Cosmética Dental',
+    education: 'Universidad de Zacatecas (México) - Rehabilitación oral e implantes',
     image: '/team-pedro.jpg',
   },
   {
     name: 'Dr. Enzo Cano',
-    specialty: 'Cirugia Maxilofacial',
-    education: 'Fellow en cirugia ortognatica y distraccion craneofacial',
+    specialty: 'Cirugía Maxilofacial',
+    education: 'Fellow en cirugía ortognática y distracción craneofacial',
     image: '/team-enzo.jpg',
   },
   {
-    name: 'Dr. Jose Manuel Quiroz',
-    specialty: 'Odontopediatria',
-    education: 'Especialidad Pediatrica - Pontificia Javeriana (2006)',
+    name: 'Dr. José Manuel Quiroz',
+    specialty: 'Odontopediatría',
+    education: 'Especialidad Pediátrica - Pontificia Javeriana (2006)',
     image: '/team-jose.jpg',
   },
   {
-    name: 'Dra. Aurora Dominguez',
-    specialty: 'Odontopediatria',
-    education: 'Maestria - Universidad El Bosque (Colombia)',
+    name: 'Dra. Aurora Domínguez',
+    specialty: 'Odontopediatría',
+    education: 'Maestría - Universidad El Bosque (Colombia)',
     image: '/team-aurora.jpg',
   },
   {
-    name: 'Dra. Monica Shedden',
+    name: 'Dra. Mónica Shedden',
     specialty: 'Periodoncia',
-    education: 'Maestria UNAM (Mexico) - Presidenta Asociacion Dental de Panama',
+    education: 'Maestría UNAM (México) - Presidenta Asociación Dental de Panamá',
     image: '/team-monica.jpg',
   },
   {
-    name: 'Dr. Moises Lukoviecky',
+    name: 'Dr. Moisés Lukoviecky',
     specialty: 'Endodoncia',
-    education: 'Post-grado Endodoncia - Universidad Santo Tomas (Bogota)',
+    education: 'Post-grado Endodoncia - Universidad Santo Tomás (Bogotá)',
     image: '/team-moises.jpg',
   },
 ]
@@ -71,8 +71,8 @@ export default function Team() {
             <span className="text-red-brand">confianza</span>
           </h2>
           <p className="text-gray-warm text-lg">
-            Un equipo multidisciplinario con formacion internacional, dedicado a
-            brindarte la mejor atencion.
+            Un equipo multidisciplinario con formación internacional, dedicado a
+            brindarte la mejor atención.
           </p>
         </motion.div>
 
@@ -130,7 +130,7 @@ export default function Team() {
             className="inline-flex items-center gap-2 text-red-brand font-semibold hover:text-red-dark transition-colors"
           >
             <FiInstagram className="text-xl" />
-            Siguenos en Instagram — @dentalgrouppanama
+            Síguenos en Instagram — @dentalgrouppanama
           </a>
         </motion.div>
       </div>

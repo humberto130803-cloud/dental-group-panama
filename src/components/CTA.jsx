@@ -24,11 +24,11 @@ export default function CTA() {
           viewport={{ once: true }}
         >
           <h2 className="font-[var(--font-heading)] text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-6 leading-tight">
-            Tu sonrisa perfecta esta a una cita de distancia
+            Tu sonrisa perfecta está a una cita de distancia
           </h2>
           <p className="text-white/80 text-lg max-w-2xl mx-auto mb-10">
-            Agenda tu evaluacion gratuita hoy y descubre como podemos transformar
-            tu sonrisa. Mas de 45,000 pacientes ya confian en nosotros.
+            Agenda tu evaluación gratuita hoy y descubre cómo podemos transformar
+            tu sonrisa. Más de 45,000 pacientes ya confían en nosotros.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

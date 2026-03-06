@@ -4,28 +4,28 @@ import { FiPlus, FiMinus } from 'react-icons/fi'
 
 const faqs = [
   {
-    q: 'Cuanto tiempo dura un tratamiento de ortodoncia?',
-    a: 'El tiempo varia segun cada caso, generalmente entre 12 y 24 meses. En tu primera consulta, nuestros especialistas te daran un estimado preciso basado en tu situacion.',
+    q: '¿Cuánto tiempo dura un tratamiento de ortodoncia?',
+    a: 'El tiempo varía según cada caso, generalmente entre 12 y 24 meses. En tu primera consulta, nuestros especialistas te darán un estimado preciso basado en tu situación.',
   },
   {
-    q: 'Es doloroso el blanqueamiento dental?',
-    a: 'No. Nuestro blanqueamiento en consultorio es un procedimiento comodo y seguro. Algunos pacientes pueden sentir una leve sensibilidad temporal que desaparece rapidamente.',
+    q: '¿Es doloroso el blanqueamiento dental?',
+    a: 'No. Nuestro blanqueamiento en consultorio es un procedimiento cómodo y seguro. Algunos pacientes pueden sentir una leve sensibilidad temporal que desaparece rápidamente.',
   },
   {
-    q: 'Que diferencia hay entre Invisalign y brackets?',
-    a: 'Invisalign usa alineadores transparentes removibles, ideales para quienes buscan discrecion. Los brackets son fijos y pueden ser mas efectivos en casos complejos. En tu consulta evaluamos cual es mejor para ti.',
+    q: '¿Qué diferencia hay entre Invisalign y brackets?',
+    a: 'Invisalign usa alineadores transparentes removibles, ideales para quienes buscan discreción. Los brackets son fijos y pueden ser más efectivos en casos complejos. En tu consulta evaluamos cuál es mejor para ti.',
   },
   {
-    q: 'Atienden ninos?',
-    a: 'Si! Nuestro equipo de odontopediatria, los "Magos de la Sonrisa", esta especialmente entrenado para atender a los mas pequenos con amor, paciencia y tecnicas de manejo conductual.',
+    q: '¿Atienden niños?',
+    a: '¡Sí! Nuestro equipo de odontopediatría, los "Magos de la Sonrisa", está especialmente entrenado para atender a los más pequeños con amor, paciencia y técnicas de manejo conductual.',
   },
   {
-    q: 'Cuales son las formas de pago?',
-    a: 'Aceptamos efectivo, tarjetas de credito y debito, cheques y ofrecemos planes de financiamiento para tratamientos mayores. Consultanos para mas detalles.',
+    q: '¿Cuáles son las formas de pago?',
+    a: 'Aceptamos efectivo, tarjetas de crédito y débito, cheques y ofrecemos planes de financiamiento para tratamientos mayores. Consúltanos para más detalles.',
   },
   {
-    q: 'Necesito cita previa o puedo llegar directo?',
-    a: 'Recomendamos agendar tu cita via WhatsApp o telefono para garantizar tu espacio. En caso de emergencias dentales, atendemos sin cita previa.',
+    q: '¿Necesito cita previa o puedo llegar directo?',
+    a: 'Recomendamos agendar tu cita vía WhatsApp o teléfono para garantizar tu espacio. En caso de emergencias dentales, atendemos sin cita previa.',
   },
 ]
 

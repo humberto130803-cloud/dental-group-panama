@@ -2,9 +2,9 @@ import { motion } from 'framer-motion'
 import { FiStar, FiAward, FiShield, FiUsers } from 'react-icons/fi'
 
 const trustItems = [
-  { icon: FiStar, text: 'Calificacion 5 Estrellas en Google' },
+  { icon: FiStar, text: 'Calificación 5 Estrellas en Google' },
   { icon: FiAward, text: 'Invisalign Provider Certificado' },
-  { icon: FiShield, text: 'Tecnologia Digital de Punta' },
+  { icon: FiShield, text: 'Tecnología Digital de Punta' },
   { icon: FiUsers, text: '+45,000 Pacientes Satisfechos' },
 ]
 

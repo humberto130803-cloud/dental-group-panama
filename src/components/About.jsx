@@ -4,8 +4,8 @@ import { FiHeart, FiSmile, FiClock, FiCheckCircle } from 'react-icons/fi'
 const features = [
   {
     icon: FiHeart,
-    title: 'Atencion Personalizada',
-    desc: 'Cada paciente es unico. Creamos planes de tratamiento adaptados a tus necesidades.',
+    title: 'Atención Personalizada',
+    desc: 'Cada paciente es único. Creamos planes de tratamiento adaptados a tus necesidades.',
   },
   {
     icon: FiSmile,
@@ -15,12 +15,12 @@ const features = [
   {
     icon: FiClock,
     title: 'Horarios Flexibles',
-    desc: 'Lunes a viernes 8am-6pm y sabados 8am-1pm. Nos adaptamos a tu agenda.',
+    desc: 'Lunes a viernes 8am-6pm y sábados 8am-1pm. Nos adaptamos a tu agenda.',
   },
   {
     icon: FiCheckCircle,
-    title: 'Tecnologia Avanzada',
-    desc: 'Equipos de ultima generacion para diagnosticos precisos y tratamientos efectivos.',
+    title: 'Tecnología Avanzada',
+    desc: 'Equipos de última generación para diagnósticos precisos y tratamientos efectivos.',
   },
 ]
 
@@ -48,7 +48,7 @@ export default function About() {
             {/* Floating card */}
             <div className="absolute -bottom-6 -right-6 bg-red-brand text-white p-6 rounded-2xl shadow-xl max-w-[200px]">
               <div className="text-3xl font-bold font-[var(--font-heading)]">15+</div>
-              <div className="text-white/80 text-sm mt-1">Anos transformando sonrisas en Panama</div>
+              <div className="text-white/80 text-sm mt-1">Años transformando sonrisas en Panamá</div>
             </div>
           </motion.div>
 
@@ -64,13 +64,13 @@ export default function About() {
             </span>
             <h2 className="font-[var(--font-heading)] text-3xl sm:text-4xl lg:text-5xl font-bold text-dark mt-3 mb-6 leading-tight">
               Una forma diferente de ver la{' '}
-              <span className="text-red-brand">odontologia</span>
+              <span className="text-red-brand">odontología</span>
             </h2>
             <p className="text-gray-warm text-lg leading-relaxed mb-8">
-              En :Dental Group, somos mas que una clinica dental. Somos un equipo de
+              En :Dental Group, somos más que una clínica dental. Somos un equipo de
               especialistas apasionados por crear sonrisas perfectas en un ambiente
-              calido y profesional. Con tres sucursales en Panama, estamos cerca de
-              ti para brindarte la mejor atencion.
+              cálido y profesional. Con tres sucursales en Panamá, estamos cerca de
+              ti para brindarte la mejor atención.
             </p>
 
             <div className="grid sm:grid-cols-2 gap-6">

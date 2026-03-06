@@ -7,8 +7,8 @@ const serviceLinks = [
   'Blanqueamiento Dental',
   'Carillas de Porcelana',
   'Implantes Dentales',
-  'Odontopediatria',
-  'Cirugia Maxilofacial',
+  'Odontopediatría',
+  'Cirugía Maxilofacial',
   'Endodoncia',
 ]
 
@@ -24,8 +24,8 @@ export default function Footer() {
               <span className="font-[var(--font-heading)] text-xl font-bold">:Dental Group</span>
             </div>
             <p className="text-white/60 text-sm leading-relaxed mb-4">
-              La Magia de la Sonrisa. Mas que una clinica dental, somos tu aliado
-              en salud bucal con mas de 15 anos de experiencia en Panama.
+              La Magia de la Sonrisa. Más que una clínica dental, somos tu aliado
+              en salud bucal con más de 15 años de experiencia en Panamá.
             </p>
             <a
               href="https://www.instagram.com/dentalgrouppanama/"
@@ -59,7 +59,7 @@ export default function Footer() {
               <li><a href="#inicio" className="text-white/60 hover:text-red-light transition-colors text-sm">Inicio</a></li>
               <li><a href="#nosotros" className="text-white/60 hover:text-red-light transition-colors text-sm">Nosotros</a></li>
               <li><a href="#resultados" className="text-white/60 hover:text-red-light transition-colors text-sm">Resultados</a></li>
-              <li><a href="#equipo" className="text-white/60 hover:text-red-light transition-colors text-sm">Equipo Medico</a></li>
+              <li><a href="#equipo" className="text-white/60 hover:text-red-light transition-colors text-sm">Equipo Médico</a></li>
               <li><a href="#opiniones" className="text-white/60 hover:text-red-light transition-colors text-sm">Opiniones</a></li>
               <li><a href="#sucursales" className="text-white/60 hover:text-red-light transition-colors text-sm">Sucursales</a></li>
             </ul>
@@ -91,7 +91,7 @@ export default function Footer() {
                 <FiClock className="text-red-light mt-1 flex-shrink-0" />
                 <div className="text-white/60 text-sm">
                   <p>Lun-Vie: 8:00am - 6:00pm</p>
-                  <p>Sabado: 8:00am - 1:00pm</p>
+                  <p>Sábado: 8:00am - 1:00pm</p>
                 </div>
               </li>
               <li className="flex items-start gap-3">

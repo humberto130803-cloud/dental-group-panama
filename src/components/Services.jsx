@@ -4,7 +4,7 @@ import { FiArrowRight } from 'react-icons/fi'
 const services = [
   {
     title: 'Ortodoncia',
-    desc: 'Brackets autoligados, de zafiro y convencionales para alinear tu sonrisa con la mejor tecnologia.',
+    desc: 'Brackets autoligados, de zafiro y convencionales para alinear tu sonrisa con la mejor tecnología.',
     image: 'https://images.unsplash.com/photo-1609840114035-3c981b782dfe?auto=format&fit=crop&w=600&q=80',
     price: 'Desde B/.2,280',
   },
@@ -16,13 +16,13 @@ const services = [
   },
   {
     title: 'Blanqueamiento Dental',
-    desc: 'Sesiones en consultorio con tecnologia Air Flow. Resultados visibles desde la primera cita.',
+    desc: 'Sesiones en consultorio con tecnología Air Flow. Resultados visibles desde la primera cita.',
     image: 'https://images.unsplash.com/photo-1598256989800-fe5f95da9787?auto=format&fit=crop&w=600&q=80',
     price: 'Desde B/.180',
   },
   {
     title: 'Carillas de Porcelana',
-    desc: 'Carillas personalizadas con matices naturales para una sonrisa de pelicula. Resultados permanentes.',
+    desc: 'Carillas personalizadas con matices naturales para una sonrisa de película. Resultados permanentes.',
     image: 'https://images.unsplash.com/photo-1606811971618-4486d14f3f99?auto=format&fit=crop&w=600&q=80',
     price: 'Consultar',
   },
@@ -33,8 +33,8 @@ const services = [
     price: 'Desde B/.1,000',
   },
   {
-    title: 'Odontopediatria',
-    desc: 'Los "Magos de la Sonrisa" cuidan la salud bucal de los mas pequenos con amor y paciencia.',
+    title: 'Odontopediatría',
+    desc: 'Los "Magos de la Sonrisa" cuidan la salud bucal de los más pequeños con amor y paciencia.',
     image: 'https://images.unsplash.com/photo-1514149739-832f5de5cce9?auto=format&fit=crop&w=600&q=80',
     price: 'Desde B/.40',
   },
@@ -63,8 +63,8 @@ export default function Services() {
             <span className="text-red-brand">sonrisa</span>
           </h2>
           <p className="text-gray-warm text-lg">
-            Ofrecemos una gama completa de servicios dentales con los mas altos
-            estandares de calidad y tecnologia.
+            Ofrecemos una gama completa de servicios dentales con los más altos
+            estándares de calidad y tecnología.
           </p>
         </motion.div>
 
@@ -118,8 +118,8 @@ export default function Services() {
           viewport={{ once: true }}
           className="text-center text-gray-warm mt-12 text-sm"
         >
-          Tambien ofrecemos: Cirugia Maxilofacial, Endodoncia, Periodoncia, Limpieza Air Flow,
-          Coronas y Puentes Dentales, Ortopedia Maxilar y mas.
+          También ofrecemos: Cirugía Maxilofacial, Endodoncia, Periodoncia, Limpieza Air Flow,
+          Coronas y Puentes Dentales, Ortopedia Maxilar y más.
         </motion.p>
       </div>
     </section>

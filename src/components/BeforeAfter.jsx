@@ -5,8 +5,8 @@ const cases = [
   {
     id: 1,
     treatment: 'Brackets Autoligados',
-    doctor: 'Dr. Samuel Cedeno',
-    desc: 'Correccion de mordida y alineacion dental con brackets autoligados de ultima generacion.',
+    doctor: 'Dr. Samuel Cedeño',
+    desc: 'Corrección de mordida y alineación dental con brackets autoligados de última generación.',
     before: '/before-brackets.png',
     after: '/after-brackets.png',
   },
@@ -14,7 +14,7 @@ const cases = [
     id: 2,
     treatment: 'Ortopedia Maxilar',
     doctor: ':Dental Group',
-    desc: 'Tratamiento temprano para corregir problemas de mordida y desarrollo de los maxilares en ninos.',
+    desc: 'Tratamiento temprano para corregir problemas de mordida y desarrollo de los maxilares en niños.',
     before: '/before-ortopedia.png',
     after: '/after-ortopedia.png',
   },
@@ -22,15 +22,15 @@ const cases = [
     id: 3,
     treatment: 'Limpieza Air Flow',
     doctor: ':Dental Group',
-    desc: 'Eliminacion de manchas extrinsecas provocadas por cafe, te, vino y alimentos con colorantes.',
+    desc: 'Eliminación de manchas extrínsecas provocadas por café, té, vino y alimentos con colorantes.',
     before: '/before-airflow.png',
     after: '/after-airflow.png',
   },
   {
     id: 4,
     treatment: 'Blanqueamiento Dental',
-    doctor: 'Dr. Agustin Pinzon',
-    desc: 'Aclaramiento profesional en consultorio para una sonrisa mas blanca y brillante.',
+    doctor: 'Dr. Agustín Pinzón',
+    desc: 'Aclaramiento profesional en consultorio para una sonrisa más blanca y brillante.',
     before: '/before-blanqueamiento.png',
     after: '/after-blanqueamiento.png',
   },
@@ -61,7 +61,7 @@ export default function BeforeAfter() {
             Resultados Reales
           </span>
           <h2 className="font-[var(--font-heading)] text-3xl sm:text-4xl lg:text-5xl font-bold text-white mt-3 mb-4">
-            Antes y <span className="text-red-light">Despues</span>
+            Antes y <span className="text-red-light">Después</span>
           </h2>
           <p className="text-white/60 text-lg">
             Casos reales de nuestros pacientes que confiaron en nosotros para
@@ -119,12 +119,12 @@ export default function BeforeAfter() {
                     <div className="aspect-[4/3] bg-gray-800 flex items-center justify-center">
                       <img
                         src={c.after}
-                        alt={`Despues - ${c.treatment}`}
+                        alt={`Después - ${c.treatment}`}
                         className="w-full h-full object-cover"
                       />
                     </div>
                     <div className="absolute top-3 right-3 bg-red-brand text-white text-xs px-3 py-1 rounded-full">
-                      Despues
+                      Después
                     </div>
                   </div>
                 </div>

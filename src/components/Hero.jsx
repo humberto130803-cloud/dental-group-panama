@@ -29,7 +29,7 @@ export default function Hero() {
             transition={{ duration: 0.8 }}
           >
             <span className="inline-block bg-red-brand/20 border border-red-brand/40 text-red-100 px-4 py-1.5 rounded-full text-sm font-medium mb-6 backdrop-blur-sm">
-              3 Sucursales en Panama
+              3 Sucursales en Panamá
             </span>
           </motion.div>
 
@@ -49,8 +49,8 @@ export default function Hero() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-white/80 text-lg sm:text-xl max-w-xl mb-8 leading-relaxed"
           >
-            Ortodoncia, Invisalign, blanqueamiento dental y mas.
-            Tu sonrisa perfecta esta a una cita de distancia.
+            Ortodoncia, Invisalign, blanqueamiento dental y más.
+            Tu sonrisa perfecta está a una cita de distancia.
           </motion.p>
 
           <motion.div
@@ -88,7 +88,7 @@ export default function Hero() {
               { number: '45K+', label: 'Seguidores' },
               { number: '8+', label: 'Especialistas' },
               { number: '3', label: 'Sucursales' },
-              { number: '15+', label: 'Anos de Experiencia' },
+              { number: '15+', label: 'Años de Experiencia' },
             ].map((stat) => (
               <div key={stat.label}>
                 <div className="text-2xl sm:text-3xl font-bold text-white">{stat.number}</div>
