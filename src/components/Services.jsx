@@ -35,7 +35,7 @@ const services = [
   {
     title: 'Odontopediatría',
     desc: 'Los "Magos de la Sonrisa" cuidan la salud bucal de los más pequeños con amor y paciencia.',
-    image: 'https://images.unsplash.com/photo-1514149739-832f5de5cce9?auto=format&fit=crop&w=600&q=80',
+    image: 'https://images.unsplash.com/photo-1588776813677-77aaf5595b83?auto=format&fit=crop&w=600&q=80',
     price: 'Desde B/.40',
   },
 ]
